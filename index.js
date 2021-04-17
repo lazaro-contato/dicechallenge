@@ -14,9 +14,11 @@ function sort1() {
   if (randomNumber1 > randomNumber2) {
     var text = document.querySelector(".refresh");
     text.innerHTML = "Number one Wins!";
+
   } else if (randomNumber1 < randomNumber2) {
     var text = document.querySelector(".refresh");
     text.innerHTML = "Number two Wins!";
+    
   } else if (randomNumber1 == randomNumber2) {
     var text = document.querySelector(".refresh");
     text.innerHTML = "Draw!";
