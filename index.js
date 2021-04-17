@@ -22,3 +22,13 @@ function sort1() {
     text.innerHTML = "Draw!";
   }
 }
+
+function reset() {
+  var resettext = document.querySelector(".refresh");
+  resettext.innerHTML = "Refresh me";
+
+  var image1 = document.getElementById("img1");
+  var image2 = document.getElementById("img2");
+  image1.src = "images/dice6.png";
+  image2.src = "images/dice6.png";
+}

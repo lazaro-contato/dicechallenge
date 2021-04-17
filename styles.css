@@ -22,6 +22,16 @@ h1 {
   cursor: pointer;
 }
 
+h2 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ecca3;
+  cursor: pointer;
+  text-align: center;
+}
+
 p {
   font-size: 2rem;
   color: #4ecca3;
